@@ -25,3 +25,5 @@ def test_existing_reg_form(browser):
     page.go_to_login_page()
     reg_form = LoginPage(browser, browser.current_url)
     reg_form.should_be_register_form()
+
+
